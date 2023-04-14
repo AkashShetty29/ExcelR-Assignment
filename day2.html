@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2 Demo</title>
+    <style>
+        a{
+            font-size: 30px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .forms-demo{
+            margin: 50px;
+            font-size: 20px;
+            background-color: rgb(71, 248, 225);
+            padding: 20px;
+        }
+        .select-menu{
+            background-color: #F6F1E9;
+        }
+        nav{
+            background-color: rgb(245, 241, 25);
+            color: rgb(15, 15, 15);
+            text-align:right;
+        }
+    </style>
+</head>
+<body>
+
+     <!-- Navigation Bar -->
+    
+     <nav>
+        <a href="home.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+
+    <h3 id="nested-list">Example for a nested list</h3> <hr>
+    
+    <!-- Nested lists -->
+    <ol start="10">
+        <li><strong>Mansing</strong></li>
+        <ul>
+            <li>9503909965</li>
+            <li>mansingkamble.it@gmail.com</li>
+            <li>male</li>
+        </ul>
+        <li><strong>priya</strong></li>
+        <ul>
+            <li>86259099656</li>
+            <li>priya123@gmail.com</li>
+            <li>female</li>
+        </ul>
+        <li><strong>Swapnil</strong></li>
+        <ul>
+            <li>8482823369</li>
+            <li>swapnilpathare12@gmail.com</li>
+            <li>male</li>
+        </ul>
+    </ol>
+
+    <h2 id="second-jump">jump here</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sit deserunt rerum, 
+        exercitationem voluptatum unde necessitatibus itaque 
+        blanditiis inventore fugiat distinctio molestias illo optio voluptate odit expedita est laborum tempora!</p>
+
+    <h3>Example of anchor tags</h3> <hr>
+
+    <!-- use of anchor tags <a></a> -->
+    <a target="_parent" href="https://google.com">
+        google.com
+    </a>
+    <br>
+    <a href="day1.html" target="_top">Day 1 Assignment</a>
+    <br>
+
+    <h3>Example of hyperlink jump</h3> <hr>
+
+    <!-- id's are created to jump to a specific location in the page -->
+    <a href="#nested-list">Jump to nested list</a>
+    <br>
+    <a href="#second-jump">Jump to lorem</a>
+    <br>
+    
+    <!-- mailto used as a attribute value to link the mail to the anchor tag -->
+    <a href="mailto:binayakpurohit1@gmail.com">mail me here</a>
+
+
+    
+    
+
+    <br>
+    <img title="I am a dog with cool glasses" src="data:image/jpeg;base64,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" alt="dog2">
+
+    <!-- use of image tags -->
+    <img src="C:\Users\pradip\Desktop\collage website\img.jpg" alt="dog" width="300" height="300" title="Hey am i cute?">
+
+
+    <!-- USE OF FORMS -->
+    <div class="forms-demo">
+        <form>
+            <h4>My Name- </h4>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname"> <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname"> <br>
+
+            <h4>Gender?</h4>
+            <input type="radio" id="m">
+            <label for="m">MALE</label>
+            <input type="radio" id="f">
+            <label for="f">FEMALE</label><br>
+
+            <h4>Vehicles I have- </h4>
+            <input type="checkbox" id="vehicle1" name="Bike">
+            <label for="vehicle1">I have a Bike</label> <br>
+            <input type="checkbox" id="vehicle2" name="Car">
+            <label for="vehicle2">I have a Car</label> <br>
+            <input type="checkbox" id="vehicle3" name="Helicopter">
+            <label for="vehicle3">I have a Helicopter 😂</label> <br>
+            <br>
+
+            <!-- dropdown menu -->
+
+            <select name="pets" class="select-menu">
+                <option value="">-Please choose desired pet-</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="parrot">Parrot</option>
+                <option value="goldfish">Goldfish</option>
+                <option value="spider">Spider</option>
+                <option value="rabbit">Rabbit</option>
+                <option value="turtle">Turtle</option>
+            </select> <br>
+
+            <!-- submit form -->
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset"> <br>
+
+
+            <!-- signup -->
+            <label for="user-name">Username:</label> <br>
+            <input type="text" id="user-name" name="username"> <br>
+            <label for="pass">Password:</label> <br>
+            <input type="password" id="pass" name="password"> <br>
+            <input type="submit" value="Submit">
+
+            <!-- findset form -->
+
+            <form>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname"> <br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname"> <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Point of contact info</legend>
+                    <label for="mobile">Mobile No:</label>
+                    <input type="no" id="mobile" name="mobile no"> <br>
+                    <label for="em">Email Id:</label>
+                    <input type="email" id="em" name="email"> <br> <br>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Address</legend>
+                    <label for="address">Home Address</label> <br>
+                    <input type="addr" id="address" name="home"> <br>
+                    <label for="alt-address">Alternate Address</label> <br>
+                    <input type="addr" id="alt-address" name="alternate"> <br>
+
+                </fieldset>
+            </form>
+
+            <!-- colored input -->
+            <input type="color" value="#ff0000" >
+            
+  
+        </form>
+    </div>
+    
+    <div>
+        <!-- week -->
+        <form>
+            <input type="week">
+        </form>
+
+        <!-- date & time -->
+        <form>
+            <input type="datetime-local">
+        </form>
+
+    </div>
+
+   
+
+
+
+</body>
+</html>
